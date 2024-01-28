@@ -314,16 +314,6 @@ public class SinglyLinkedList<E> implements Cloneable {
 	  list.swapNodes("LAX","MSP");
 	  System.out.println(list);
 	  
-	  try {
-	        SinglyLinkedList<String> clonedList = list.clone();
-	        System.out.println("Cloned List: " + clonedList);
-	        clonedList.swapNodes("LAX","MSP");
-	        System.out.println("Cloned List: " + clonedList);
-	    } catch (CloneNotSupportedException e) {
-	        System.out.println("Cloning not supported: " + e.getMessage());
-	    }
-	  
-	  System.out.println(list);
 	  //
   }
   
